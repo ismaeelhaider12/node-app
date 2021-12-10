@@ -5,7 +5,7 @@
 # . ~/.nvm/nvm.sh
 # nvm install node
 sudo yum install -y gcc-c++ make 
-curl -sL https://rpm.nodesource.com/setup_14.x | sudo -E bash -
+sudo curl -sL https://rpm.nodesource.com/setup_14.x | sudo -E bash -
 sudo yum install -y nodejs
 
 #create our working directory if it doesnt exist
